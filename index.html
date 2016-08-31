@@ -1,23 +1,62 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
 
-<div class="home">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Koen Vinken : Web Developer">
 
-  <h1 class="page-heading">Posts</h1>
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <title>Koen Vinken</title>
+  </head>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  <body>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/ikoene">View on GitHub</a>
 
-</div>
+          <h1 id="project_title">Koen Vinken</h1>
+          <h2 id="project_tagline">Web Developer</h2>
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="profile" class="anchor" href="#profile" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Profile</h1>
+
+<p>I work as a developer at Wijs, a digital agency located in Gent.</p>
+
+<p>My tasks include:</p>
+
+<ul>
+<li>developing and maintaining web applications</li>
+<li>creating technical and functional analyses</li>
+<li>improving and expanding our internal framework</li>
+</ul>
+
+<p>I mainly develop web applications with the Symfony framework, but I’ve used Fork CMS as my daily driver for several years. I’ve worked on projects both small and large in scope.</p>
+
+<p>While PHP development is my expertise, I also have some experience with frontend development. I've used frontend frameworks like Bootstrap and Foundation for developing responsive, mobile first projects.</p>
+
+<p>Technical skillset:
+PHP, Symfony, JavaScript (jQuery), CSS (SASS), Git, GitHub, Capistrano and Bash.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "name": "Koen Vinken",
+  "tagline": "Web Developer",
+  "body": "# Profile\r\n\r\nI work as a developer at Wijs, a digital agency located in Gent.\r\n\r\nMy tasks include:\r\n\r\n- developing and maintaining web applications\r\n- creating technical and functional analyses\r\n- improving and expanding our internal framework\r\n\r\nI mainly develop web applications with the Symfony framework, but I’ve used Fork CMS as my daily driver for several years. I’ve worked on projects both small and large in scope.\r\n\r\nWhile PHP development is my expertise, I also have some experience with frontend development. I've used frontend frameworks like Bootstrap and Foundation for developing responsive, mobile first projects.\r\n\r\nTechnical skillset:\r\nPHP, Symfony, JavaScript (jQuery), CSS (SASS), Git, GitHub, Capistrano and Bash.",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
